@@ -7,6 +7,7 @@ from services import services
 origins = [
     "http://localhost:3000",
     "http://localhost:8000",
+    "https://pokemonverse-ui.herokuapp.com"
 ]
 
 app = fastapi.FastAPI()
